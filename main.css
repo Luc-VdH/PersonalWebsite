@@ -37,7 +37,7 @@ h1.heading2{
     background-image: url(images/bg-image1_small.jpg);
     filter: saturate(100%);
     -webkit-filter: brightness(70%);
-    height: 55vw;
+    height: 120vh;
     top: 0;
     bottom: 0;
     left: 0;
@@ -53,7 +53,7 @@ h1.heading2{
     background-image: url(images/bg-image1-blurred_small.jpg);
     filter: saturate(50%);
     -webkit-filter: brightness(80%);
-    height: 55vw;
+    height: 120vh;
     z-index: -1;
     background-size: cover;
     background-attachment: fixed;
@@ -73,6 +73,20 @@ h1.heading2{
     background-size: cover;
     background-attachment: fixed;
     will-change: transform;
+}
+.bg-tutor{
+  background-image: url(images/cslab.jpg);
+  filter: saturate(100%);
+  -webkit-filter: brightness(100%);
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+  will-change: transform;
 }
 .bg-res{
     background-image: url(images/res.jpg);
@@ -115,6 +129,23 @@ img.profile{
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+.img-pod{
+    width:10vw;
+    height:10vw;
+    border-width: 0.8vw;
+    border-color: black;
+    padding: 0px;
+    align-content: center;
+    box-shadow: 2.5px 5px 5px  rgb(45, 45, 48);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-pod:hover{
+  box-shadow: 5px 10px 10px  rgb(45, 45, 48);
 }
 body{
     background-color: rgb(200, 200, 224);
@@ -249,3 +280,9 @@ div.references{
     /* display: inline-block; */
     line-height: 1em;
   }
+  h2.pop-in{
+    -webkit-animation:bounce-in 1s ease-in-out 0s 1 normal;
+    -moz-animation:bounce-in 1s ease-in-out 0s 1 normal;
+    -ms-animation:bounce-in 1s ease-in-out 0s 1 normal;
+    animation:bounce-in 1s ease-in-out 0s 1 normal;
+}
