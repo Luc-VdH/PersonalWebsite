@@ -1,23 +1,23 @@
 document.addEventListener('scroll', function (e) {
-    var top1  = window.pageYOffset + window.innerHeight,
+    let top1 = window.pageYOffset + window.innerHeight,
         isVisible1 = top1 > document.querySelector('#head1').offsetTop;
-    var top2  = window.pageYOffset + window.innerHeight,
+    let top2  = window.pageYOffset + window.innerHeight,
         isVisible2 = top2 > document.querySelector('#head2').offsetTop;
-    var top3  = window.pageYOffset + window.innerHeight,
+    let top3  = window.pageYOffset + window.innerHeight,
         isVisible3 = top3 > document.querySelector('#head3').offsetTop;
-    var top4  = window.pageYOffset + window.innerHeight,
+    let top4  = window.pageYOffset + window.innerHeight,
         isVisible4 = top4 > document.querySelector('#head4').offsetTop;
-    var top5  = window.pageYOffset + window.innerHeight,
+    let top5  = window.pageYOffset + window.innerHeight,
         isVisible5 = top5 > document.querySelector('#head5').offsetTop;
-    var top6  = window.pageYOffset + window.innerHeight,
+    let top6  = window.pageYOffset + window.innerHeight,
         isVisible6 = top6 > document.querySelector('#head6').offsetTop;
-    var top7  = window.pageYOffset + window.innerHeight,
+    let top7  = window.pageYOffset + window.innerHeight,
         isVisible7 = top7 > document.querySelector('#head7').offsetTop;
-    var top8  = window.pageYOffset + window.innerHeight,
+    let top8  = window.pageYOffset + window.innerHeight,
         isVisible8 = top8 > document.querySelector('#head8').offsetTop;
-    var top9  = window.pageYOffset + window.innerHeight,
+    let top9  = window.pageYOffset + window.innerHeight,
         isVisible9 = top9 > document.querySelector('#head9').offsetTop;
-    var top10  = window.pageYOffset + window.innerHeight,
+    let top10  = window.pageYOffset + window.innerHeight,
         isVisible10 = top10 > document.querySelector('#head10').offsetTop;
     
 
