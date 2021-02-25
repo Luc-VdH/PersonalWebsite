@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+}
+
+body.ProjBody {
+    background-color: rgb(214, 224, 246);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+#myBtn {
+
+    position: fixed;
+    top: 5vh;
+    right: 3vw;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 0.4vw;
+    border-radius: 10px;
+    font-size: 3vh;
+    box-shadow: 3px 3px 10px rgb(24, 23, 23);
+}
+
+#myBtn:hover {
+    background-color: rgb(190,190,190);
+}
+
+.heading{
+    font-size: 5vh;
+
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5.6vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+
+}
+.lang-head{
+    font-size: 3.5vh;
+
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.basic{
+    font-size: 2vh;
+
+    letter-spacing: 0.02em;
+
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.start{
+    padding-top: 0;
+    margin:0;
+    /*height: 15vh;*/
+    background-image: linear-gradient(rgb(67, 116, 196), rgb(214, 224, 246));
+}
+.back-arrow{
+    padding-top:0.4vw;
+    width: 5vw;
+    height: 5vw;
+    position: center;
+}
