@@ -5,7 +5,10 @@
     outline: 0;
 
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
 body.ProjBody {
     background-color: rgb(214, 224, 246);
     margin: 0;
@@ -16,7 +19,7 @@ body.ProjBody {
 #myBtn {
 
     position: fixed;
-    top: 5vh;
+    top: 1.5vh;
     right: 3vw;
     z-index: 99;
     border: none;
@@ -25,7 +28,7 @@ body.ProjBody {
     color: black;
     cursor: pointer;
     padding: 0.4vw;
-    border-radius: 10px;
+    border-radius: 1vh;
     font-size: 3vh;
     box-shadow: 3px 3px 10px rgb(24, 23, 23);
 }
@@ -40,14 +43,24 @@ body.ProjBody {
     letter-spacing: 0.02em;
     font-weight: 600;
     text-align: center;
-    padding-top: 5.6vh;
+    padding-top: 7vh;
     padding-left: 10vw;
     padding-right: 10vw;
 
 
 }
 .lang-head{
-    font-size: 3.5vh;
+    font-size: 4vh;
+    text-decoration: underline;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.proj-head{
+    font-size: 3vh;
 
     letter-spacing: 0.02em;
     font-weight: 600;
@@ -65,6 +78,7 @@ body.ProjBody {
     padding-top: 5vh;
     padding-left: 10vw;
     padding-right: 10vw;
+
 }
 .start{
     padding-top: 0;
@@ -74,7 +88,33 @@ body.ProjBody {
 }
 .back-arrow{
     padding-top:0.4vw;
-    width: 5vw;
-    height: 5vw;
+    width: 6vh;
+    height: 6vh;
     position: center;
+}
+.image_block{
+    /*padding-left: 40vw;*/
+    padding-top: 5vh;
+    /*position: center;*/
+
+    width:100%;
+    display:block;
+
+}
+
+.app{
+    box-shadow: 5px 5px 10px  rgb(45, 45, 48);
+    text-align: center;
+    display: block;
+    height: 65vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.map{
+    box-shadow: 5px 5px 10px  rgb(45, 45, 48);
+    text-align: center;
+    display: block;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
 }
